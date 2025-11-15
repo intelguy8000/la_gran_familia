@@ -167,7 +167,7 @@ export default function DonationsPage() {
               asChild
               size="lg"
               variant="outline"
-              className="bg-white text-[#2D3B5F] hover:bg-gray-100 text-lg px-8 py-6"
+              className="border-2 border-white text-white hover:bg-white hover:text-[#00A4E4] transition-all duration-300 bg-transparent text-lg px-8 py-6"
             >
               <a
                 href={CONTACT.whatsappUrl}

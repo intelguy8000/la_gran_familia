@@ -54,7 +54,7 @@ export default async function HomePage({
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/20 font-semibold text-lg px-8 py-6"
+              className="border-2 border-white text-white hover:bg-white hover:text-[#00A4E4] transition-all duration-300 bg-transparent font-semibold text-lg px-8 py-6"
               asChild
             >
               <Link href={`/${locale}/quienes-somos`}>

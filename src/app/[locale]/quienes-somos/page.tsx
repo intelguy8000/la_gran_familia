@@ -118,7 +118,7 @@ export default async function AboutPage() {
             </a>
             <a
               href={`/contacto`}
-              className="inline-block bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+              className="inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#00A4E4] font-semibold px-8 py-4 rounded-lg transition-all duration-300 text-lg"
             >
               Contáctanos
             </a>
