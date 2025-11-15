@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# La Gran Familia - Website Oficial
 
-## Getting Started
+> Un Abrazo de Esperanza
 
-First, run the development server:
+Sitio web oficial de La Gran Familia, fundación en Medellín que lleva amor, fe y esperanza de Dios a personas en situaciones difíciles.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
+
+## 🌟 Features
+
+- ✨ **8 páginas completas** - Home, About, Programs, Gallery, Help, Donations, Shop, Contact
+- 🌍 **Bilingüe** - Español e Inglés con next-intl
+- 📱 **Responsive** - Mobile-first design
+- ⚡ **Performance** - Optimizado con Next.js 16
+- 🎨 **Modern UI** - Tailwind CSS + shadcn/ui
+- 🖼️ **Galería interactiva** - 18 fotos + 2 videos con lightbox
+- 📧 **Formularios funcionales** - Validación con react-hook-form + zod
+- 🔍 **SEO optimizado** - Meta tags, Open Graph, sitemap
+- ♿ **Accesible** - WCAG compliant
+
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **UI Components:** shadcn/ui
+- **Internationalization:** next-intl v4
+- **Animations:** Framer Motion
+- **Forms:** react-hook-form + zod
+- **Icons:** Lucide React
+- **Deployment:** Vercel
 
-## Learn More
+## 🎨 Color Palette
 
-To learn more about Next.js, take a look at the following resources:
+```css
+--primary: #00A4E4     /* Azul */
+--secondary: #FFD700   /* Dorado */
+--accent: #E84B7A      /* Rosa */
+--neutral: #2D3B5F     /* Azul oscuro */
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Email:** la.gran.familiadd@gmail.com  
+**WhatsApp:** +57 301 801 3167  
+**Location:** Medellín, Antioquia, Colombia
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Copyright © 2025 La Gran Familia. All rights reserved.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+**Built with ❤️ by La Gran Familia**
+
+🤖 Developed with [Claude Code](https://claude.com/claude-code)
