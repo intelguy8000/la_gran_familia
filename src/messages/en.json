@@ -51,10 +51,20 @@
     "message": "Message"
   },
   "footer": {
-    "description": "La Gran Familia Foundation - Bringing hope to people in difficult situations in Medellín.",
+    "tagline": "An embrace of hope",
+    "description": "Bringing love, faith, and hope from God to people in Medellín and Antioquia",
+    "navigation": "Navigation",
+    "contact": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
     "rights": "All rights reserved",
-    "links": "Links",
-    "followUs": "Follow us"
+    "socialMedia": "Follow Us"
+  },
+  "buttons": {
+    "donateNow": "Donate Now",
+    "menu": "Menu",
+    "close": "Close"
   },
   "common": {
     "learnMore": "Learn more",

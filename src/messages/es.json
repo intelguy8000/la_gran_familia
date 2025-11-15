@@ -51,10 +51,20 @@
     "message": "Mensaje"
   },
   "footer": {
-    "description": "Fundación La Gran Familia - Llevando esperanza a personas en situaciones difíciles en Medellín.",
+    "tagline": "Un abrazo de esperanza",
+    "description": "Llevando amor, fe y esperanza de Dios a personas en Medellín y Antioquia",
+    "navigation": "Navegación",
+    "contact": "Contáctanos",
+    "email": "Email",
+    "phone": "Teléfono",
+    "location": "Ubicación",
     "rights": "Todos los derechos reservados",
-    "links": "Enlaces",
-    "followUs": "Síguenos"
+    "socialMedia": "Síguenos"
+  },
+  "buttons": {
+    "donateNow": "Donar Ahora",
+    "menu": "Menú",
+    "close": "Cerrar"
   },
   "common": {
     "learnMore": "Conocer más",

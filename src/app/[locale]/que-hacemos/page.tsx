@@ -4,7 +4,7 @@ export default function ProgramsPage() {
   const t = useTranslations('programs');
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="bg-white pt-20">
       <div className="container mx-auto px-4 py-20">
         <h1 className="text-5xl font-bold mb-6 text-[#2D3B5F]">
           {t('title')}
@@ -16,6 +16,6 @@ export default function ProgramsPage() {
           {t('description')}
         </p>
       </div>
-    </main>
+    </div>
   );
 }

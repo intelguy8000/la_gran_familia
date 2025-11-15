@@ -3,13 +3,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
-export default function HomePage() {
+export default async function HomePage({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const t = useTranslations();
 
   return (
-    <main className="min-h-screen">
+    <>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#00A4E4] via-[#2D3B5F] to-[#E84B7A] text-white">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#00A4E4] via-[#2D3B5F] to-[#E84B7A] text-white pt-20">
         <div className="absolute inset-0 bg-black/20" />
 
         <div className="relative z-10 container mx-auto px-4 text-center">
@@ -42,7 +47,7 @@ export default function HomePage() {
               className="bg-[#FFD700] hover:bg-[#CCAC00] text-[#2D3B5F] font-semibold text-lg px-8 py-6"
               asChild
             >
-              <Link href="/ayudar">
+              <Link href={`/${locale}/ayudar`}>
                 {t('hero.cta1')}
               </Link>
             </Button>
@@ -52,7 +57,7 @@ export default function HomePage() {
               className="border-white text-white hover:bg-white/20 font-semibold text-lg px-8 py-6"
               asChild
             >
-              <Link href="/quienes-somos">
+              <Link href={`/${locale}/quienes-somos`}>
                 {t('hero.cta2')}
               </Link>
             </Button>
@@ -85,7 +90,7 @@ export default function HomePage() {
               className="bg-[#00A4E4] hover:bg-[#0078A8] text-white"
               asChild
             >
-              <Link href="/quienes-somos">
+              <Link href={`/${locale}/quienes-somos`}>
                 {t('common.learnMore')}
               </Link>
             </Button>
@@ -111,13 +116,13 @@ export default function HomePage() {
               className="bg-[#E84B7A] hover:bg-[#C23861] text-white"
               asChild
             >
-              <Link href="/que-hacemos">
+              <Link href={`/${locale}/que-hacemos`}>
                 {t('common.learnMore')}
               </Link>
             </Button>
           </div>
         </div>
       </section>
-    </main>
+    </>
   );
 }
