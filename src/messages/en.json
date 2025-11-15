@@ -15,15 +15,48 @@
     "cta1": "Get Involved",
     "cta2": "Learn More"
   },
+  "home": {
+    "stats": {
+      "years": "Years of Service",
+      "families": "Families Impacted",
+      "children": "Children Served",
+      "hope": "Shared Hope"
+    }
+  },
   "about": {
     "title": "About Us",
     "subtitle": "Bringing hope to people in difficult situations",
-    "description": "La Gran Familia is a foundation in Medellín that brings hope to people in difficult situations, touching hearts and transforming lives with God's love."
+    "description": "La Gran Familia is a foundation in Medellín that brings hope to people in difficult situations, touching hearts and transforming lives with God's love.",
+    "ourStory": "Our Story",
+    "storyText1": "La Gran Familia was born from the hearts of Sergio and Deisy, a couple who felt God's call to transform lives. Four years ago, moved by love and faith, they decided to take the first step: bringing people closer to God in their most difficult moments.",
+    "storyText2": "What began as a family dream is now a reality that touches hearts in hospitals, homes, and communities throughout Medellín and Antioquia. Every smile from a hospitalized child, every tear of hope at a retreat, and every family that finds comfort reminds us why we exist.",
+    "storyText3": "We are not just another organization. We are a family that believes in the transforming power of God's love, and we work every day so that no one feels alone on their journey.",
+    "mission": "Our Mission",
+    "missionText": "To carry a message of love, faith, and hope in God, with the desire to touch hearts and remind each person that they are never alone. We want to be a beacon of light in any darkness, a spiritual embrace that renews strength, and a voice that inspires belief in the power of God's love again.",
+    "vision": "Our Vision",
+    "visionText": "To be a community recognized for bringing God's love and hope to all people, touching hearts and transforming lives through a message that inspires faith, unity, and spiritual renewal. We aspire to expand our light to every corner, becoming a reference point for peace, comfort, and closeness to God for those seeking strength and purpose."
   },
   "programs": {
     "title": "What We Do",
     "subtitle": "Our help programs",
-    "description": "We work in different areas to bring help and hope to those who need it most."
+    "description": "We work in different areas to bring help and hope to those who need it most.",
+    "viewAll": "View All Programs",
+    "hospital": {
+      "title": "Hospital Visits",
+      "description": "We bring joy and hope to hospitalized children through art therapy activities, messages of encouragement, and companionship. We work hand in hand with institutions like Hospital Infantil San Vicente Fundación, creating moments of light during recovery."
+    },
+    "retreats": {
+      "title": "Spiritual Retreats",
+      "description": "We organize retreats and gatherings that strengthen faith, renew the spirit, and build community. Spaces for reflection, prayer, and spiritual growth for people of all ages."
+    },
+    "family": {
+      "title": "Family Support",
+      "description": "We accompany families in their times of need, offering consecrations, counseling, and special events that strengthen family bonds under God's light."
+    },
+    "community": {
+      "title": "Community Work",
+      "description": "We create meeting spaces for all ages: children, youth, adults, seniors, and people with disabilities. Because La Gran Familia welcomes everyone without exception."
+    }
   },
   "gallery": {
     "title": "Gallery",
@@ -40,15 +73,34 @@
     "description": "Buy products and support our programs."
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Get in touch",
+    "title": "Contact Us",
+    "subtitle": "Have questions? Want to participate? Need support? We're here for you.",
     "description": "We're here to help. Don't hesitate to reach out.",
     "email": "Email",
     "whatsapp": "WhatsApp",
     "location": "Location",
-    "sendMessage": "Send message",
-    "name": "Name",
-    "message": "Message"
+    "schedule": "We respond to messages every day",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+57 300 123 4567",
+      "type": "Type of inquiry",
+      "typePlaceholder": "Select an option",
+      "typeVolunteer": "Volunteering",
+      "typeDonation": "Donation",
+      "typeInfo": "General Information",
+      "typeSupport": "I Need Support",
+      "typeOther": "Other",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll contact you soon.",
+      "error": "There was an error. Please try again."
+    }
   },
   "footer": {
     "tagline": "An embrace of hope",
@@ -64,7 +116,9 @@
   "buttons": {
     "donateNow": "Donate Now",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "learnMore": "Learn more",
+    "viewAll": "View All"
   },
   "common": {
     "learnMore": "Learn more",

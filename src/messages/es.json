@@ -15,15 +15,48 @@
     "cta1": "Quiero Ayudar",
     "cta2": "Conocer Más"
   },
+  "home": {
+    "stats": {
+      "years": "Años de Servicio",
+      "families": "Familias Impactadas",
+      "children": "Niños Atendidos",
+      "hope": "Esperanza Compartida"
+    }
+  },
   "about": {
     "title": "Quiénes Somos",
     "subtitle": "Llevando esperanza a personas en situaciones difíciles",
-    "description": "La Gran Familia es una fundación en Medellín que lleva esperanza a personas en situaciones difíciles, tocando corazones y transformando vidas con el amor de Dios."
+    "description": "La Gran Familia es una fundación en Medellín que lleva esperanza a personas en situaciones difíciles, tocando corazones y transformando vidas con el amor de Dios.",
+    "ourStory": "Nuestra Historia",
+    "storyText1": "La Gran Familia nació del corazón de Sergio y Deisy, una pareja que sintió el llamado de Dios para transformar vidas. Hace cuatro años, movidos por el amor y la fe, decidieron dar el primer paso: acercar a las personas a Dios en sus momentos más difíciles.",
+    "storyText2": "Lo que comenzó como un sueño en familia, hoy es una realidad que toca corazones en hospitales, hogares y comunidades de Medellín y Antioquia. Cada sonrisa de un niño hospitalizado, cada lágrima de esperanza en un retiro, y cada familia que encuentra consuelo, nos recuerda por qué existimos.",
+    "storyText3": "No somos una organización más. Somos una familia que cree en el poder transformador del amor de Dios, y trabajamos cada día para que nadie se sienta solo en su camino.",
+    "mission": "Nuestra Misión",
+    "missionText": "Llevar un mensaje de amor, fe y esperanza en Dios, con el deseo de tocar corazones y recordar a cada persona que nunca está sola. Queremos ser un faro de luz en medio de cualquier oscuridad, un abrazo espiritual que renueva fuerzas y una voz que inspira a creer nuevamente en el poder del amor de Dios.",
+    "vision": "Nuestra Visión",
+    "visionText": "Ser una comunidad reconocida por llevar el amor y la esperanza de Dios a todas las personas, tocando corazones y transformando vidas mediante un mensaje que inspire fe, unidad y renovación espiritual. Aspiramos a expandir nuestra luz a cada rincón, convirtiéndonos en un referente de paz, consuelo y acercamiento a Dios para quienes buscan fortaleza y propósito."
   },
   "programs": {
     "title": "Qué Hacemos",
     "subtitle": "Nuestros programas de ayuda",
-    "description": "Trabajamos en diferentes áreas para llevar ayuda y esperanza a quienes más lo necesitan."
+    "description": "Trabajamos en diferentes áreas para llevar ayuda y esperanza a quienes más lo necesitan.",
+    "viewAll": "Ver Todos los Programas",
+    "hospital": {
+      "title": "Visitas Hospitalarias",
+      "description": "Llevamos alegría y esperanza a niños hospitalizados a través de actividades de arte terapia, mensajes de ánimo y compañía. Trabajamos de la mano con instituciones como el Hospital Infantil San Vicente Fundación, creando momentos de luz en medio de la recuperación."
+    },
+    "retreats": {
+      "title": "Retiros Espirituales",
+      "description": "Organizamos retiros y encuentros que fortalecen la fe, renuevan el espíritu y crean comunidad. Espacios de reflexión, oración y crecimiento espiritual para personas de todas las edades."
+    },
+    "family": {
+      "title": "Apoyo Familiar",
+      "description": "Acompañamos a familias en sus momentos de necesidad, ofreciendo consagraciones, consejería y eventos especiales que fortalecen los lazos familiares bajo la luz de Dios."
+    },
+    "community": {
+      "title": "Trabajo Comunitario",
+      "description": "Creamos espacios de encuentro para todas las edades: niños, jóvenes, adultos, adultos mayores y personas con discapacidad. Porque La Gran Familia acoge a todos sin excepción."
+    }
   },
   "gallery": {
     "title": "Galería",
@@ -40,15 +73,34 @@
     "description": "Compra productos y apoya nuestros programas."
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "Contáctanos",
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas? ¿Quieres participar? ¿Necesitas apoyo? Estamos aquí para ti.",
     "description": "Estamos aquí para ayudarte. No dudes en comunicarte con nosotros.",
-    "email": "Correo electrónico",
+    "email": "Email",
     "whatsapp": "WhatsApp",
     "location": "Ubicación",
-    "sendMessage": "Enviar mensaje",
-    "name": "Nombre",
-    "message": "Mensaje"
+    "schedule": "Respondemos mensajes todos los días",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+57 300 123 4567",
+      "type": "Tipo de consulta",
+      "typePlaceholder": "Selecciona una opción",
+      "typeVolunteer": "Voluntariado",
+      "typeDonation": "Donación",
+      "typeInfo": "Información General",
+      "typeSupport": "Necesito Apoyo",
+      "typeOther": "Otro",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te contactaremos pronto.",
+      "error": "Hubo un error. Por favor intenta de nuevo."
+    }
   },
   "footer": {
     "tagline": "Un abrazo de esperanza",
@@ -64,7 +116,9 @@
   "buttons": {
     "donateNow": "Donar Ahora",
     "menu": "Menú",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "learnMore": "Conocer más",
+    "viewAll": "Ver Todos"
   },
   "common": {
     "learnMore": "Conocer más",
