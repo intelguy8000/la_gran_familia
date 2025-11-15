@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Heart, Users, Home, HandHeart } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import Image from 'next/image';
 
 export default async function ProgramsPage() {
   const t = await getTranslations('programs');
@@ -12,6 +13,8 @@ export default async function ProgramsPage() {
       description: t('hospital.description'),
       color: 'text-[#00A4E4]',
       bgColor: 'bg-[#00A4E4]/10',
+      image: '/images/programs/visitas-hospitalarias.jpg',
+      imageAlt: 'Equipo de La Gran Familia en visita al Hospital Infantil San Vicente Fundación',
     },
     {
       icon: Users,
@@ -19,6 +22,8 @@ export default async function ProgramsPage() {
       description: t('retreats.description'),
       color: 'text-[#E84B7A]',
       bgColor: 'bg-[#E84B7A]/10',
+      image: '/images/programs/retiros-espirituales.jpg',
+      imageAlt: 'Retiro espiritual de La Gran Familia con la comunidad',
     },
     {
       icon: Home,
@@ -26,6 +31,8 @@ export default async function ProgramsPage() {
       description: t('family.description'),
       color: 'text-[#FFD700]',
       bgColor: 'bg-[#FFD700]/10',
+      image: '/images/programs/apoyo-familiar.jpg',
+      imageAlt: 'Consagración familiar celebrada por La Gran Familia',
     },
     {
       icon: HandHeart,
@@ -33,6 +40,8 @@ export default async function ProgramsPage() {
       description: t('community.description'),
       color: 'text-[#00A4E4]',
       bgColor: 'bg-[#00A4E4]/10',
+      image: '/images/programs/trabajo-comunitario.jpg',
+      imageAlt: 'Encuentro comunitario de La Gran Familia',
     },
   ];
 
@@ -83,10 +92,16 @@ export default async function ProgramsPage() {
                     {program.description}
                   </p>
 
-                  {/* Image Placeholder */}
-                  <div className="mt-6 rounded-lg overflow-hidden">
-                    <div className={`${program.bgColor} aspect-video flex items-center justify-center`}>
-                      <Icon className={`w-16 h-16 ${program.color} opacity-30`} />
+                  {/* Program Image */}
+                  <div className="mt-6 rounded-lg overflow-hidden shadow-md">
+                    <div className="relative aspect-video">
+                      <Image
+                        src={program.image}
+                        alt={program.imageAlt}
+                        fill
+                        className="object-cover hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
                     </div>
                   </div>
                 </Card>
@@ -141,7 +156,7 @@ export default async function ProgramsPage() {
             </a>
             <a
               href={`/ayudar`}
-              className="inline-block bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+              className="inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#E84B7A] font-semibold px-8 py-4 rounded-lg transition-all duration-300 text-lg"
             >
               Quiero Ayudar
             </a>
