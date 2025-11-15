@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Target, Eye } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -50,12 +51,21 @@ export default async function AboutPage() {
               </p>
             </div>
 
-            {/* Image Placeholder */}
+            {/* Founders Image */}
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <div className="bg-gradient-to-br from-[#00A4E4] to-[#E84B7A] aspect-[4/3] flex items-center justify-center">
-                <div className="text-center text-white p-8">
-                  <p className="text-2xl font-bold mb-2">Sergio y Deisy</p>
-                  <p className="text-lg">Fundadores de La Gran Familia</p>
+              <div className="relative aspect-[3/4]">
+                <Image
+                  src="/images/familia/sergio-deisy-familia.jpg"
+                  alt="Sergio y Deisy, fundadores de La Gran Familia, con su familia"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
+                {/* Caption Overlay */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
+                  <p className="text-xl md:text-2xl font-bold mb-1">Sergio y Deisy</p>
+                  <p className="text-sm md:text-base">Fundadores de La Gran Familia</p>
                 </div>
               </div>
             </div>
