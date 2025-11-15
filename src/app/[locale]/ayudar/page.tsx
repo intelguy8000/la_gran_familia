@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ export default async function HelpPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = useTranslations();
+  const t = await getTranslations();
 
   return (
     <div className="bg-white pt-20">
