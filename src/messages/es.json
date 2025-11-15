@@ -82,12 +82,105 @@
   "donate": {
     "title": "Donaciones",
     "subtitle": "Tu aporte marca la diferencia",
-    "description": "Con tu ayuda podemos seguir llevando esperanza a más personas."
+    "description": "Con tu ayuda podemos seguir llevando esperanza a más personas.",
+    "transform": {
+      "title": "Tu Generosidad Transforma Vidas",
+      "intro": "Cada donación que recibimos se convierte en:",
+      "items": {
+        "materials": "Materiales para actividades con niños hospitalizados",
+        "resources": "Recursos para retiros espirituales",
+        "support": "Apoyo a familias en situación de vulnerabilidad",
+        "expansion": "Expansión de nuestros programas a más comunidades"
+      },
+      "transparency": "Creemos en la transparencia total. Cada peso es administrado con responsabilidad y amor, siempre buscando el mayor impacto en las vidas que tocamos."
+    },
+    "ways": {
+      "title": "Formas de Donar",
+      "single": {
+        "title": "Donación Única",
+        "description": "Haz una contribución cuando puedas y en la cantidad que desees",
+        "button": "Donar Ahora"
+      },
+      "monthly": {
+        "title": "Donación Mensual",
+        "description": "Conviértete en donante recurrente y genera un impacto sostenido",
+        "button": "Donar Mensualmente"
+      },
+      "inkind": {
+        "title": "Donación en Especie",
+        "description": "Dona materiales, alimentos o recursos que necesitamos",
+        "button": "Conocer Más"
+      }
+    },
+    "impact": {
+      "title": "El Impacto de tu Donación",
+      "subtitle": "Historias de vidas transformadas gracias a tu generosidad",
+      "placeholder": "Pronto compartiremos historias de las personas cuyas vidas has tocado con tu generosidad"
+    },
+    "cta": {
+      "title": "¿Listo para hacer la diferencia?",
+      "donate": "Hacer una Donación",
+      "contact": "Contactar por WhatsApp"
+    }
+  },
+  "help": {
+    "title": "Quiero Ayudar",
+    "subtitle": "Hay muchas formas de ayudar a La Gran Familia",
+    "intro": "Existen muchas formas de participar y hacer la diferencia en la vida de quienes más lo necesitan. Cada forma de ayuda cuenta y transforma vidas.",
+    "bePartOfChange": "Sé Parte del Cambio",
+    "volunteer": {
+      "title": "Voluntariado",
+      "description": "Únete a nuestras actividades en hospitales, retiros y eventos comunitarios. Tu tiempo y amor pueden transformar vidas.",
+      "areas": "Áreas donde necesitamos voluntarios:",
+      "area1": "Visitas hospitalarias",
+      "area2": "Organización de eventos",
+      "area3": "Apoyo en retiros espirituales",
+      "area4": "Acompañamiento familiar",
+      "button": "Quiero ser Voluntario"
+    },
+    "donations": {
+      "title": "Donaciones",
+      "description": "Cada aporte nos permite llegar a más personas, realizar más actividades y expandir nuestro alcance. Tu generosidad es semilla de esperanza.",
+      "button": "Hacer una Donación"
+    },
+    "spread": {
+      "title": "Difunde el Mensaje",
+      "description": "Comparte nuestra misión con tu familia, amigos y comunidad. Cada persona que conoce La Gran Familia es una puerta más que se abre para llevar amor y fe.",
+      "social": "Redes sociales:",
+      "button": "Compartir"
+    },
+    "sponsor": {
+      "title": "Patrocinio Empresarial",
+      "description": "¿Representas una empresa? Explora oportunidades de responsabilidad social y patrocinio de nuestros programas.",
+      "button": "Contactar"
+    },
+    "contactInfo": {
+      "title": "¿Tienes preguntas sobre cómo ayudar?",
+      "button": "Contactar por WhatsApp"
+    }
   },
   "shop": {
     "title": "Tienda",
     "subtitle": "Apoya nuestra causa",
-    "description": "Compra productos y apoya nuestros programas."
+    "description": "Compra productos y apoya nuestros programas.",
+    "comingSoon": "Próximamente",
+    "message": "Estamos preparando productos especiales que no solo te encantarán, sino que además ayudarán a financiar nuestras actividades. Cada compra será un aporte directo a nuestra misión.",
+    "tagline": "¡Pronto podrás ser parte de La Gran Familia también a través de nuestra tienda!",
+    "features": {
+      "title": "¿Qué puedes esperar?",
+      "purpose": "Productos con propósito",
+      "benefit": "100% del beneficio a programas",
+      "exclusive": "Diseños exclusivos",
+      "impact": "Compra con impacto"
+    },
+    "notify": {
+      "title": "Notifícame cuando esté lista",
+      "placeholder": "tu@email.com",
+      "button": "Suscribirme",
+      "success": "¡Gracias! Te avisaremos cuando la tienda esté disponible"
+    },
+    "meanwhile": "Mientras tanto:",
+    "viewGallery": "Ver Galería"
   },
   "contact": {
     "title": "Contáctanos",

@@ -82,12 +82,105 @@
   "donate": {
     "title": "Donations",
     "subtitle": "Your contribution makes a difference",
-    "description": "With your help we can continue bringing hope to more people."
+    "description": "With your help we can continue bringing hope to more people.",
+    "transform": {
+      "title": "Your Generosity Transforms Lives",
+      "intro": "Every donation we receive becomes:",
+      "items": {
+        "materials": "Materials for activities with hospitalized children",
+        "resources": "Resources for spiritual retreats",
+        "support": "Support for families in vulnerable situations",
+        "expansion": "Expansion of our programs to more communities"
+      },
+      "transparency": "We believe in total transparency. Every peso is managed with responsibility and love, always seeking the greatest impact on the lives we touch."
+    },
+    "ways": {
+      "title": "Ways to Donate",
+      "single": {
+        "title": "One-Time Donation",
+        "description": "Make a contribution whenever you can and in the amount you choose",
+        "button": "Donate Now"
+      },
+      "monthly": {
+        "title": "Monthly Donation",
+        "description": "Become a recurring donor and create sustained impact",
+        "button": "Donate Monthly"
+      },
+      "inkind": {
+        "title": "In-Kind Donation",
+        "description": "Donate materials, food, or resources we need",
+        "button": "Learn More"
+      }
+    },
+    "impact": {
+      "title": "The Impact of Your Donation",
+      "subtitle": "Stories of lives transformed thanks to your generosity",
+      "placeholder": "Soon we will share stories of the people whose lives you have touched with your generosity"
+    },
+    "cta": {
+      "title": "Ready to make a difference?",
+      "donate": "Make a Donation",
+      "contact": "Contact via WhatsApp"
+    }
+  },
+  "help": {
+    "title": "Get Involved",
+    "subtitle": "There are many ways to help La Gran Familia",
+    "intro": "There are many ways to participate and make a difference in the lives of those who need it most. Every form of help counts and transforms lives.",
+    "bePartOfChange": "Be Part of the Change",
+    "volunteer": {
+      "title": "Volunteering",
+      "description": "Join our activities in hospitals, retreats, and community events. Your time and love can transform lives.",
+      "areas": "Areas where we need volunteers:",
+      "area1": "Hospital visits",
+      "area2": "Event organization",
+      "area3": "Support at spiritual retreats",
+      "area4": "Family accompaniment",
+      "button": "I Want to Volunteer"
+    },
+    "donations": {
+      "title": "Donations",
+      "description": "Every contribution allows us to reach more people, conduct more activities, and expand our reach. Your generosity is a seed of hope.",
+      "button": "Make a Donation"
+    },
+    "spread": {
+      "title": "Spread the Message",
+      "description": "Share our mission with your family, friends, and community. Each person who knows La Gran Familia is another door that opens to bring love and faith.",
+      "social": "Social media:",
+      "button": "Share"
+    },
+    "sponsor": {
+      "title": "Corporate Sponsorship",
+      "description": "Do you represent a company? Explore opportunities for social responsibility and sponsorship of our programs.",
+      "button": "Contact"
+    },
+    "contactInfo": {
+      "title": "Have questions about how to help?",
+      "button": "Contact via WhatsApp"
+    }
   },
   "shop": {
     "title": "Shop",
     "subtitle": "Support our cause",
-    "description": "Buy products and support our programs."
+    "description": "Buy products and support our programs.",
+    "comingSoon": "Coming Soon",
+    "message": "We are preparing special products that you will not only love, but will also help fund our activities. Every purchase will be a direct contribution to our mission.",
+    "tagline": "Soon you'll be able to be part of La Gran Familia through our store too!",
+    "features": {
+      "title": "What can you expect?",
+      "purpose": "Products with purpose",
+      "benefit": "100% of proceeds to programs",
+      "exclusive": "Exclusive designs",
+      "impact": "Shop with impact"
+    },
+    "notify": {
+      "title": "Notify me when it's ready",
+      "placeholder": "your@email.com",
+      "button": "Subscribe",
+      "success": "Thank you! We'll notify you when the store is available"
+    },
+    "meanwhile": "In the meantime:",
+    "viewGallery": "View Gallery"
   },
   "contact": {
     "title": "Contact Us",

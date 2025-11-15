@@ -1,6 +1,16 @@
 import { getTranslations } from 'next-intl/server';
 import { Target, Eye } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Quiénes Somos | La Gran Familia',
+  description: 'Conoce la historia de La Gran Familia, fundación nacida del corazón de Sergio y Deisy en Medellín. Nuestra misión, visión y compromiso con las personas en situaciones difíciles.',
+  openGraph: {
+    title: 'Quiénes Somos | La Gran Familia',
+    description: 'La historia de una fundación que transforma vidas con amor, fe y esperanza',
+  },
+};
 
 export default async function AboutPage() {
   const t = await getTranslations('about');
