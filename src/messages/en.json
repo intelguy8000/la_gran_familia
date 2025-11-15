@@ -60,7 +60,24 @@
   },
   "gallery": {
     "title": "Gallery",
-    "subtitle": "Moments that transform lives"
+    "subtitle": "Moments that transform lives",
+    "filters": {
+      "all": "All",
+      "hospital": "Hospitals",
+      "retreats": "Retreats",
+      "community": "Community",
+      "events": "Events",
+      "spiritual": "Spiritual"
+    },
+    "videos": {
+      "title": "Videos of Our Work",
+      "subtitle": "Learn about our impact through these stories"
+    },
+    "noResults": "No photos in this category",
+    "viewing": "Viewing {current} of {total}",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next"
   },
   "donate": {
     "title": "Donations",
