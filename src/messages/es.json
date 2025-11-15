@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "programs": "Qué Hacemos",
+    "gallery": "Galería",
+    "help": "Quiero Ayudar",
+    "donate": "Donaciones",
+    "shop": "Tienda",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Un Abrazo de Esperanza",
+    "subtitle": "Tocando corazones y transformando vidas con el amor de Dios",
+    "cta1": "Quiero Ayudar",
+    "cta2": "Conocer Más"
+  },
+  "about": {
+    "title": "Quiénes Somos",
+    "subtitle": "Llevando esperanza a personas en situaciones difíciles",
+    "description": "La Gran Familia es una fundación en Medellín que lleva esperanza a personas en situaciones difíciles, tocando corazones y transformando vidas con el amor de Dios."
+  },
+  "programs": {
+    "title": "Qué Hacemos",
+    "subtitle": "Nuestros programas de ayuda",
+    "description": "Trabajamos en diferentes áreas para llevar ayuda y esperanza a quienes más lo necesitan."
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Momentos que transforman vidas"
+  },
+  "donate": {
+    "title": "Donaciones",
+    "subtitle": "Tu aporte marca la diferencia",
+    "description": "Con tu ayuda podemos seguir llevando esperanza a más personas."
+  },
+  "shop": {
+    "title": "Tienda",
+    "subtitle": "Apoya nuestra causa",
+    "description": "Compra productos y apoya nuestros programas."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Contáctanos",
+    "description": "Estamos aquí para ayudarte. No dudes en comunicarte con nosotros.",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp",
+    "location": "Ubicación",
+    "sendMessage": "Enviar mensaje",
+    "name": "Nombre",
+    "message": "Mensaje"
+  },
+  "footer": {
+    "description": "Fundación La Gran Familia - Llevando esperanza a personas en situaciones difíciles en Medellín.",
+    "rights": "Todos los derechos reservados",
+    "links": "Enlaces",
+    "followUs": "Síguenos"
+  },
+  "common": {
+    "learnMore": "Conocer más",
+    "close": "Cerrar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  }
+}

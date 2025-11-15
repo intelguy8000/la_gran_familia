@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "What We Do",
+    "gallery": "Gallery",
+    "help": "Get Involved",
+    "donate": "Donations",
+    "shop": "Shop",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "An Embrace of Hope",
+    "subtitle": "Touching hearts and transforming lives with God's love",
+    "cta1": "Get Involved",
+    "cta2": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Bringing hope to people in difficult situations",
+    "description": "La Gran Familia is a foundation in Medellín that brings hope to people in difficult situations, touching hearts and transforming lives with God's love."
+  },
+  "programs": {
+    "title": "What We Do",
+    "subtitle": "Our help programs",
+    "description": "We work in different areas to bring help and hope to those who need it most."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Moments that transform lives"
+  },
+  "donate": {
+    "title": "Donations",
+    "subtitle": "Your contribution makes a difference",
+    "description": "With your help we can continue bringing hope to more people."
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Support our cause",
+    "description": "Buy products and support our programs."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "description": "We're here to help. Don't hesitate to reach out.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "sendMessage": "Send message",
+    "name": "Name",
+    "message": "Message"
+  },
+  "footer": {
+    "description": "La Gran Familia Foundation - Bringing hope to people in difficult situations in Medellín.",
+    "rights": "All rights reserved",
+    "links": "Links",
+    "followUs": "Follow us"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
